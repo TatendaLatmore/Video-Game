@@ -1,0 +1,43 @@
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+
+
+
+header,
+footer {
+    transition: background-color 1.0s ease, color 1.0s ease;
+}
+
+
+
+
+button {
+    cursor: pointer;
+}
+
+
+
+
+nav ul li a {
+    font-family: 'Permanent Marker', cursive;
+    transition: color 0.3s ease;
+}
+
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+
+.nav-links a {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+
+.dark-mode .nav-links a {
+    color: white;
+}
